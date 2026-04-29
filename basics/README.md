@@ -1,18 +1,34 @@
-## Getting Started
+# Java Basics Package
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This package contains my foundational Java practice covering core programming concepts. It serves as a structured learning space to build strong fundamentals in Java and object-oriented programming.
 
-## Folder Structure
+## Purpose
+The goal of this package is to strengthen my understanding of:
+- Core Java syntax and structure  
+- Problem-solving using Java  
+- Writing clean, efficient, and maintainable code  
 
-The workspace contains two folders by default, where:
+## Topics Covered
+This package includes practice and implementations of:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Variables and Data Types  
+- Operators and Expressions  
+- Conditional Statements (`if`, `else`, `switch`)  
+- Loops (`for`, `while`, `do-while`)  
+- Methods and Functions  
+- Arrays and Basic Data Structures  
+- Input and Output Handling  
+- Basic Debugging and Problem Solving  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Learning Approach
+- Understand concepts deeply rather than memorizing syntax  
+- Break problems into smaller logical steps  
+- Practice consistently through small exercises  
+- Experiment and iterate with simple programs  
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Structure
+Each file or folder corresponds to a specific concept or set of exercises. The code is organized for easy navigation and review.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Note
+This is a learning-focused package, so some code may be experimental, incomplete, or heavily commented as I explore new concepts.
