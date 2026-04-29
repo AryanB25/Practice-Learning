@@ -26,5 +26,5 @@ I focus on:
 ## Progress
 This is an evolving repository that will continue to grow as I learn new topics and refine existing skills.
 
-### Note
+## Note
 This repo is primarily for learning and practice purposes, so you may find incomplete solutions, rough work, or experimental code.
