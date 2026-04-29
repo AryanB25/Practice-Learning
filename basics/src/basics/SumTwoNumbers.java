@@ -8,5 +8,5 @@ public class SumTwoNumbers {
         int sum = num1 + num2; // calculates the sum of the numbers and stores the value in a variable sum
 
         System.out.println(sum); // prints the sum of num1 and num2
-    } // end of main
-} // end of class
+    }
+}
