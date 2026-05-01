@@ -27,7 +27,7 @@ public class LinearSearch {
         for (int i = 0; i < a.length; i++) {
             if (a[i] == x) { // if the number is equal to the current element of the array
                 System.out.println("Number found at position " + (i + 1));
-                check = true;
+                check = true; // the number was found in the array
             }
         }
 
