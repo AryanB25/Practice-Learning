@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // import the Scanner class
 
 public class SelectionSort {
 
