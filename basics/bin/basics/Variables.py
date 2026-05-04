@@ -1,11 +1,11 @@
 # This program displays uses variables
 
 full_name = "Aryan Bhatt"
-age = 18 
+age = 18
 gpa = 4.0
 is_Student = True
 
-print(f"Hello {full_name}!") # f means format
+print(f"Hello {full_name}!")  # f means format
 print(f"My age is {age}")
 print(f"My GPA is {gpa}")
 
@@ -19,7 +19,10 @@ a += 2
 a += 3
 
 print(a)
-print(a-7)
+print(a - 7)
 
 b = 5
-print(a+b)
+print(a + b)
+
+c = 4
+print(c + a - b)
