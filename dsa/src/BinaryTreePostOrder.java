@@ -15,7 +15,7 @@ public class BinaryTreePostOrder {
     }
 
     static class BinaryTree {
-        private int index = -1;
+        private int index = -1; // store the current index
 
         Node buildTree(int[] orders) {
             index++; // current index
