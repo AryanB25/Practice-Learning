@@ -47,19 +47,19 @@ public class SubtreeofATree {
                 return true;
             if (root == null)
                 return false;
-            if (checkEqual(root, subRoot))
+            if (isEqual(root, subRoot))
                 return true;
-            return equalRoot(root.right, subRoot) || equalRoot(root.left, subRoot);
+            return equalRoot(root.left, subRoot) || equalRoot(root.left, subRoot);
         }
 
-        boolean checkEqual(Node root, Node subRoot) {
+        boolean isEqual(Node root, Node subRoot) {
             if (root == null && subRoot == null)
                 return true;
             if (root == null || subRoot == null)
                 return false;
             if (root.data != subRoot.data)
                 return false;
-            return checkEqual(root.left, subRoot.left) && checkEqual(root.right, subRoot.right);
+            return isEqual(root.left, subRoot.left) && isEqual(root.right, subRoot.right);
         }
     }
 
@@ -71,6 +71,6 @@ public class SubtreeofATree {
         Node subRoot = tree.buildTree(subTree);
         tree.inOrder(root);
         tree.inOrder(subRoot);
-        System.out.println(tree.equalRoot(root, subRoot)); 
+        System.out.println(tree.equalRoot(root, subRoot));
     }
 }
