@@ -43,23 +43,25 @@ public class SubtreeofATree {
         }
 
         boolean equalRoot(Node root, Node subRoot) {
-            if (subRoot == null)
-                return true;
-            if (root == null)
+            if (root == null) // if the BST is empty or has nothing in it
                 return false;
-            if (isEqual(root, subRoot))
+            if (subRoot == null) // if the root of the subtree is null or empty
                 return true;
-            return equalRoot(root.left, subRoot) || equalRoot(root.left, subRoot);
+            if (isEqual(root, subRoot)) // checks if the tree is exactly identical
+                return true;
+            return equalRoot(root.left, subRoot) || equalRoot(root.right, subRoot);
+            // recursive call to check if the tree is identical in either the right or left
         }
 
         boolean isEqual(Node root, Node subRoot) {
-            if (root == null && subRoot == null)
+            if (root == null && subRoot == null) // if both the trees reach the leaf at the same time
                 return true;
-            if (root == null || subRoot == null)
+            if (root == null || subRoot == null) // if the trees aren't identical
                 return false;
-            if (root.data != subRoot.data)
+            if (root.data != subRoot.data) // if the nodes are not identical
                 return false;
             return isEqual(root.left, subRoot.left) && isEqual(root.right, subRoot.right);
+            // recursive call to check if the tree is identical in both the right and left
         }
     }
 
