@@ -37,11 +37,14 @@ public class BSTKeySearch {
     }
 
     static boolean search(Node root, int val) {
-        if (root == null) return false; 
-        if (root.data > val) return search(root.left, val); 
-        if (root.data < val) return search(root.right, val);
-        if (root.data == val) return true;
-        return false;
+        if (root == null)
+            return false; // if the tree is empty or we reach the leaf
+        if (root.data > val) // if the val is less than the root's value
+            return search(root.left, val);
+        if (root.data == val) // if the val is equal to the root's value
+            return true;
+        else
+            return search(root.right, val); // if the val is greater than the root's value
     }
 
     public static void main(String[] args) {
@@ -55,7 +58,7 @@ public class BSTKeySearch {
         inOrder(root); // print the nodes of the BST (In-Order)
         System.out.println();
 
-        if (search(root, 21)) {
+        if (search(root, 7)) {
             System.out.println("Found!");
         } else {
             System.out.println("NOT Found!");
