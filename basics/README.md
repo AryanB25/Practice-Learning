@@ -1,12 +1,12 @@
-# Java Basics Package
+# Basics Package
 
 ## Overview
-This package contains my foundational Java practice covering core programming concepts. It serves as a structured learning space to build strong fundamentals in Java and object-oriented programming.
+This package contains my foundational practice covering core programming concepts. It serves as a structured learning space to build strong fundamentals including object-oriented programming.
 
 ## Purpose
 The goal of this package is to strengthen my understanding of:
-- Core Java syntax and structure  
-- Problem-solving using Java  
+- Core syntax and structure  
+- Problem-solving  
 - Writing clean, efficient, and maintainable code  
 
 ## Topics Covered
